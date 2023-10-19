@@ -110,3 +110,42 @@ ul li span{
 ul li span:hover{
     background: #edeef0;
 }
+
+@media screen and (min-width: 348px) and (max-width: 416px) {
+    button{
+        border: none;
+        outline: none;
+        background: #ff5945;
+        color: #fff;
+        padding: 13px 19px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (min-width: 308px) and (max-width: 348px){
+    button{
+        border: none;
+        outline: none;
+        background: #ff5945;
+        color: #fff;
+        padding: 11px 13px;
+        font-size: 11px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
+
+@media screen and (max-width: 308px){
+    button{
+        border: none;
+        outline: none;
+        background: #ff5945;
+        color: #fff;
+        padding: 9px 6px;
+        font-size: 11px;
+        cursor: pointer;
+        border-radius: 40px;
+    }
+}
